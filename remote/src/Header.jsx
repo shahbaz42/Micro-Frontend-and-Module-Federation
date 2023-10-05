@@ -17,6 +17,14 @@ function Header() {
           <li>
             <a href="/">Contact</a>
           </li>
+          <li
+            style={{
+              float: "right",
+              marginRight: "20px",
+            }}
+          >
+            <a href="/">Login</a>
+          </li>
         </ul>
       </nav>
     </div>
