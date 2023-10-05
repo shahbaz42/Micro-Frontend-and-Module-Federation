@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 0 25px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    width: 70px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav li:active {
+    background-color: #333333;
+}
+nav li:hover {
+    background-color: #8f8f8f;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav button {
+    display: none;
+}
